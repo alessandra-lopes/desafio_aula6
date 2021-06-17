@@ -1,0 +1,54 @@
+/* comentário em CSS é Ctrl + ; */
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+body{
+    margin: 30;
+    /* Centralizar textos */
+    text-align: center;
+    /*Imagem de fundo*/
+    background-image: url(https://tinyurl.com/sepnpefe);
+    /* Posicionamento */
+    background-position:top;
+    /* Altura do body */
+    height: 100vh; 
+    /* tamanho da imagem */
+    background-size: 500px;
+    /* fixar a imagem de fundo */
+    background-attachment: fixed;
+}
+
+#cabecalho {
+    height: 20vh;
+    background-color: #e5e2c4e5;
+    font-family: 'Viaoda Libre', cursive;
+    font-size:x-large;
+}
+
+.texto_header {
+    position: relative;
+    top: 25%;
+}
+
+#conteudo {
+    height: 90vh;
+    background-color: #e5e2c4b9;
+}
+
+#rodape {
+    height: 25vh;
+    background-color: #e5e2c4e5;
+    font-family: 'Viaoda Libre', cursive;
+    padding-top: 5px;
+    margin-bottom: 35px;
+}
+
+.icones{
+    width: 100px;
+}
+
+.iconeCC0{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index: 999;
+    padding: 20px;
+}
